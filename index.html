@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon js</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="Inicio()">
+    <div class="cabecera">
+        <label class="cantidad" for="cantidad">Pokemons Cant =>
+        <input id="valueInput" type="number" name="cantidad" id="">
+        <button type="submit" onclick="valorInput()">submit</button>
+        </label>
+        <img id="inicial" src="./imagenes/pngwing.com (8).png" alt="" srcset="">
+    
+    </div>
+    <div class="zoom">
+        <img src="./imagenes/pngwing.com (8).png" alt="">
+    </div>
+    <div id="container-pokemon" class="container-pokemon">
+               
+        <div class="icon left">
+            <button class="boton" id="derecha">
+            <div class="boton">
+                <i class="fas fa-angle-left"></i>
+            </div>
+            </button>
+        </div>
+        <div class="targetas" id="targetas">
+            
+        </div>  
+        <div class="icon right">
+            <button class="boton " id="izquierda">
+                <div class="boton">
+                <i  class="fas fa-angle-right"></i>
+                </div>
+            </button>  
+        </div> 
+        
+    </div>
+    
+    <script src="prueba.js"></script>
+</body>
+</html>
